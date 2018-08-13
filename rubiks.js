@@ -218,10 +218,10 @@ var theShaderProgram;
 var activeConfig = defaultConfig;
 
 var theta = 0.0;
-var thetaRate = 0.5;
+var thetaRate = 1.0;
 
 var currentActionId = 0;
-var actionRate = 1.0;
+var actionRate = 2.0;
 var actionProgess = 0;
 
 var leftFaceCubes = [0, 3, 6, 9, 12, 14, 17, 20, 23];
