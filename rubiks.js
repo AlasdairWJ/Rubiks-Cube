@@ -18,11 +18,11 @@ function arraysAreEqual(A, B) {
 }
 
 
-const WHITE = makecol(255, 255, 255);
-const BLACK = makecol(0, 0, 0);
+const WHITE = 0xFFFFFFFF; // makecol(255, 255, 255);
+const BLACK = 0xFF000000; //makecol(0, 0, 0);
 
-const WHITE_ISH = makecol(240, 240, 240);
-const BLACK_ISH = makecol(16, 16, 16);
+const WHITE_ISH = 0xFFF0F0F0; // makecol(240, 240, 240);
+const BLACK_ISH = 0xFF101010; //makecol(16, 16, 16);
 
 const RED = 0xFFB71234; //makecol(255, 0, 0);
 const BLUE = 0xFF0046AD; //makecol(0, 0, 255);
